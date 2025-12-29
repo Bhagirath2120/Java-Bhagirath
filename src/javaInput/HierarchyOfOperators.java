@@ -1,6 +1,6 @@
 package javaInput;
 
-public class HeirarchyOfOperators {
+public class HierarchyOfOperators {
     public static void main(String[] args) {
         int i = 2,j = 3, l, k;
         double a,b;
