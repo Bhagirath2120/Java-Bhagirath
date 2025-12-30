@@ -17,6 +17,7 @@ public class LogicalOperator {
         System.out.println(" ! (Not) operator");
         System.out.println( !(a<c)); // true; condition is false  so it returns true
         System.out.println( !(a> b)); // false;
+        System.out.println("hello world");
 
 
     }
