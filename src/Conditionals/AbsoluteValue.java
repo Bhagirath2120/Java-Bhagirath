@@ -6,13 +6,12 @@ public class AbsoluteValue {
         System.out.print("Enter Number ");
         int n = sc.nextInt();
 
-        if( n <0 ){
-        int c = n*-1;
-        System.out.println("The absolute value is "+c);
+        if( n < 0 ){
+
+         n = n * (-1);
+
         }
-        else {
             System.out.println("The absolute value is " + n);
-        }
 
 
 
