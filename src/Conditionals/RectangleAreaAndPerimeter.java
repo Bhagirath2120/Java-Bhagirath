@@ -25,6 +25,8 @@ public class RectangleAreaAndPerimeter {
              System.out.println("Area is less than Perimeter");
              System.out.println("Area is " + Area);
              System.out.println("Perimeter is " + Perimeter);
+         }else  {
+             System.out.println("Area is equal to Perimeter");
          }
     }
 }
