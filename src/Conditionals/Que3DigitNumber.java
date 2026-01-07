@@ -13,6 +13,7 @@ public class Que3DigitNumber {
         }
         else{
             System.out.println("It is not a 3 Digit Number");
+
         }
 
     }
