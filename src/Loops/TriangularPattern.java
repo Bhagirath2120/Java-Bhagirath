@@ -20,18 +20,18 @@ public class TriangularPattern {
 //        }
 
 
-        r = n;
+//        r = n;
+////
+////        // inverted or reverse or descending right-angled Triangle pattern
+////        // descending  star pattren
 //
-//        // inverted or reverse or descending right-angled Triangle pattern
-//        // descending  star pattren
-
         for (int i = 1; i <= r; i++) {
             for (int j = r ; j >= i; j--) {
                 System.out.print("*");
             }
             System.out.println();
         }
-
+//
 
 
     }

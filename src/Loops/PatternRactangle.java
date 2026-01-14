@@ -12,26 +12,26 @@ public class PatternRactangle {
         int c = sc.nextInt();
 
         // rectangle
-//        for(int i = 1; i <= r; i++) {
-//            for(int j = 1; j <= c; j++) {
-//                System.out.print("*");
-//            }
-//            System.out.println();
-//        }
-
-        //empty rectangle
-
-        for(int i = 1; i <= r; i++){
-            for(int j = 1; j<=c; j++){
-
-                if( i == 1 || i ==  r || j == 1 || j == c){
-                    System.out.print("*");
-                }
-                else {
-                    System.out.print(" ");
-                }
+        for(int i = 1; i <= r; i++) {
+            for(int j = 1; j <= c; j++) {
+                System.out.print(" Bhagirath ");
             }
             System.out.println();
         }
+
+        //empty rectangle
+
+//        for(int i = 1; i <= r; i++){
+//            for(int j = 1; j<=c; j++){
+//
+//                if( i == 1 || i ==  r || j == 1 || j == c){
+//                    System.out.print(" * ");
+//                }
+//                else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
     }
 }
