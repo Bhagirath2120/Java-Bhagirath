@@ -22,7 +22,7 @@ public class continueKeyword {
                 continue;
 
             }
-            System.out.println(num);
+            System.out.println(num+" ");
             num++;
         }
     }
