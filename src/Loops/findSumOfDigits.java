@@ -30,7 +30,7 @@ public class findSumOfDigits {
 //        }
 
         System.out.println("total digits: "+count);
-        System.out.println("Sum Of digits: "+ans);
+        System.out.println("Sum Of digits  : "+ans);
 
 
 
