@@ -1,5 +1,8 @@
 package Loops;
 import java.util.Scanner;
+
+// decimal to binary conversion
+
 public class DecimalToBinary {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
