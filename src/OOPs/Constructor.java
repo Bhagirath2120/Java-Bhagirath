@@ -34,7 +34,7 @@ class  operation{
 
 
 // main function class
-public class Constructor {
+public class  Constructor {
     public static void main(String[] args) {
 
         // object 1
