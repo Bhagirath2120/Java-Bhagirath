@@ -1,7 +1,7 @@
 package OOPs;
 
 // class 1
-  class School {
+  class  School {
       int Rollno;
       String Studentname;
 
@@ -12,7 +12,7 @@ package OOPs;
 
 // main class
 public class Student {
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
 
         // object 1
         School obj1 = new School();
