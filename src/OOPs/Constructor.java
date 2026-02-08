@@ -39,10 +39,10 @@ public class  Constructor {
 
         // object 1
         operation a1 = new operation( 6,4);  // object created
+
         System.out.println(a1.add());    // calling and printing object a1 add  member function
         System.out.println(a1.sub());    // calling and printing object a1 sub  member function
         System.out.println(  a1.mul());  //  calling and printing object a1 mul  member function
-
 
         // object 2
         operation b1 = new operation(20,10);   // object created
@@ -51,13 +51,6 @@ public class  Constructor {
         System.out.println(b1.sub());   // calling and printing object a2 sub  member function
         System.out.println(b1.mul());   // calling and printing object a2 mul  member function
 
-
-
-
-
-
-
-
-
+        
     }
 }
