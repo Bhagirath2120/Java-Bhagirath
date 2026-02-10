@@ -12,7 +12,7 @@ public class AccessSpecifier {
     public static void main(String[] args) {
         AccessSpecifier obj1 = new AccessSpecifier();
 
-        System.out.println("main function class "+obj1.str_1);
+        System.out.println("main  function class "+obj1.str_1);
 
         hello objH = new hello();
         objH.samepackage();
