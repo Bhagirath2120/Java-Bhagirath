@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BinaryToDecimal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter  binary number: ");
+        System.out.println(" Enter  binary number: ");
         int binary = sc.nextInt();
         int power = 1; // 2^power
         int answer = 0;
