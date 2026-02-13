@@ -15,7 +15,7 @@ public class continueKeyword {
 //            System.out.println(i);
 //
 //        }
-        int num=1;
+        int  num=1;
         while(num<=n){
             if(num %3==0){
                 num++;
