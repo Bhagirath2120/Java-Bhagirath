@@ -18,7 +18,7 @@ public class CountDigit {
             n =n/10;
             count++;
         }
-        System.out.println("Total digits  " +count);
+        System.out.println("Total  digits  " +count);
 
 
         //==================================================================================================
