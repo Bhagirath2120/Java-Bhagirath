@@ -7,7 +7,7 @@ public class NumericalPattern3 {
         int r = sc.nextInt();
         System.out.println("Enter column : ");
         int c = sc.nextInt();
-        for (int i = 0; i <= r; i++) {
+         for (int i = 0; i <= r; i++) {
             for (int j = 0; j <= c; j++) {
                 if((i+j)%2==0){
                     System.out.print("1");
