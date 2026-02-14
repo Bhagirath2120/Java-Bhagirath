@@ -13,7 +13,7 @@ public class NumericalPattern {
             for (int j = i; j <= r; j++){
                 System.out.print(j);
             }
-            for (int k = 1; k <= i-1; k++){
+            for (int  k = 1; k <= i-1; k++){
                 System.out.print(k);
 
             }
