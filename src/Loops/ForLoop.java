@@ -20,7 +20,7 @@ public class ForLoop {
 //==================================================================================================================
 
         // PRINT SUM OF N  NUMBER USING for() LOOP
-        for (int i = 0; i <= n; i++) {
+        for (int  i = 0; i <= n; i++) {
             sum +=i;
 
         }
