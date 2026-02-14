@@ -9,7 +9,7 @@ public class NumericalPattern2 {
         System.out.println("Enter a column: ");
         int c = sc.nextInt();
 
-        for (int i = 1; i <= r; i++) {
+        for (int  i = 1; i <= r; i++) {
             for (int j = 1; j <= c; j++) {
                 System.out.print(j);
             }
