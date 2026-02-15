@@ -7,7 +7,7 @@ public class Pattern6 {
         int r = sc.nextInt();
 
 
-            for (int i = 1; i  <= r; i++) {
+            for (int  i = 1; i  <= r; i++) {
 
                 for (int j = 1; j <= r - i; j++) {
                     System.out.print(" ");
