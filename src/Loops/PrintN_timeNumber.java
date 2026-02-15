@@ -22,7 +22,7 @@ public class PrintN_timeNumber {
       //========================================================================================================================
 
 
-        // PRINT SUM OF NATURAL NUMBER
+        // PRINT SUM OF  NATURAL NUMBER
         int sum = 0;
         while(num<=n){
             sum += num;
