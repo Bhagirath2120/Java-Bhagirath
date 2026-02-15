@@ -19,7 +19,7 @@ public class Practice1 {
                     System.out.println("*");
                 }
 
-                // Second line: **__**
+                // Second  line: **__**
                 for (int i = 0; i < 2; i++) {
                     System.out.print("*");
                 }
