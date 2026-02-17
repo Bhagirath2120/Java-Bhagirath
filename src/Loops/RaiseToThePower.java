@@ -9,7 +9,7 @@ public class RaiseToThePower {
         System.out.print("Enter the number (a): ");
         int a = sc.nextInt();
         System.out.print("Enter the number (b): ");
-        int b = sc.nextInt();
+        int b =  sc.nextInt();
         int ans = 1;
 
         // for loop
