@@ -9,7 +9,7 @@ public class PrintNFactorial {
         int n = sc.nextInt();
         int f = 1;
 
-        for(int i = 1; i <= n; i++){
+        for(int i =  1; i <= n; i++){
             f *= i;
             System.out.println("Factorial of " + i + " : " + f);
         }
