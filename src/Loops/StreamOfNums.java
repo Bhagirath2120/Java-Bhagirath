@@ -28,7 +28,7 @@ public class StreamOfNums {
 
 
 
-    do {            //but here the loop does not break even after giving the input -1 ; the first time it initialise -1 to sum
+     do {            //but here the loop does not break even after giving the input -1 ; the first time it initialise -1 to sum
                     // and then checks the condition but after this as soon as the input is -1 the loop will break
           sum += n;
           n = sc.nextInt();
