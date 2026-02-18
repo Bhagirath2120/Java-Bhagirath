@@ -8,7 +8,7 @@ public class SumSeries {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number :");
         int n = sc.nextInt();
-        int ans = 0;
+         int ans = 0;
 
 
 //         FOR LOOP
