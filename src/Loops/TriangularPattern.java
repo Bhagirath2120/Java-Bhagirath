@@ -26,7 +26,7 @@ public class TriangularPattern {
 ////        // descending  star pattren
 //
         for (int i = 1; i <= r; i++) {
-            for (int j = r ; j >= i; j--) {
+             for (int j = r ; j >= i; j--) {
                 System.out.print("*");
             }
             System.out.println();
