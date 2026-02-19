@@ -1,6 +1,6 @@
 package javaInput;
 import java.util.Scanner;
-public class AreaCircle {
+public  class AreaCircle {
     public static void main(String[] args) {
         double R,Area;
        Scanner sc = new Scanner(System.in);
