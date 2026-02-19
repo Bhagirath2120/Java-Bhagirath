@@ -2,7 +2,7 @@ package javaInput;
 
 public class HierarchyOfOperators {
     public static void main(String[] args) {
-        int i = 2,j = 3, l, k;
+         int i = 2,j = 3, l, k;
         double a,b;
 
         k= i/j * i ; //  calculation start from left to right so output is 0, because we are storing int data
