@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class AgeGroup {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);    // Scanner
+         Scanner sc = new Scanner(System.in);    // Scanner
         System.out.println("Hello my name is Bhagirath Rai");
         System.out.print("How are old you :  ");
         int age = sc.nextInt();  // input
