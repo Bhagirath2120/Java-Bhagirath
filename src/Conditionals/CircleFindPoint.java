@@ -15,7 +15,7 @@ public class CircleFindPoint {
         System.out.print("Enter center coordinate(x,y): ");
         double x = sc.nextDouble();
         double y = sc.nextDouble();
-        System.out.print("Enter Radius: ");
+         System.out.print("Enter Radius: ");
         double radius = sc.nextDouble();
         // point
         System.out.print("Point point coordinate (x1,y1): ");
