@@ -2,7 +2,7 @@ package OOPs;
 
 // class 1
   class  School {
-      int  Rollno;
+       int  Rollno;
       String Studentname;
 
  };
