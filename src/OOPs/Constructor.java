@@ -38,7 +38,7 @@ public class  Constructor {
     public static void main(String[] args) {
 
         // object 1
-        operation a1 = new operation( 6,4);  // object created
+         operation a1 = new operation( 6,4);  // object created
 
         System.out.println(a1.add());    // calling and printing object a1 add  member function
         System.out.println(a1.sub());    // calling and printing object a1 sub  member function
