@@ -21,7 +21,7 @@ public class AddTwoNUmber {
         algebra a1 = new algebra();     //object created
 
         System.out.println(" Enter first number: ");
-        int a = sc.nextInt();
+         int a = sc.nextInt();
         System.out.println(" Enter second number: ");
         int b = sc.nextInt();
          int ans = a1.Add(a,b);
