@@ -10,7 +10,7 @@ package OOPs;
 public class AccessSpecifier {
     public String  str_1 = " i am public specifier";
     public static void main(String[] args) {
-        AccessSpecifier obj1 = new AccessSpecifier();
+         AccessSpecifier obj1 = new AccessSpecifier();
 
         System.out.println("main  function class "+obj1.str_1);
 
