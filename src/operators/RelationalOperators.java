@@ -1,7 +1,7 @@
 package operators;
 
 public class RelationalOperators {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         int a = 20;
         int b = 5;
 
@@ -13,5 +13,5 @@ public class RelationalOperators {
         System.out.println(a < b); // false
 
 
-    }
+     }
 }
