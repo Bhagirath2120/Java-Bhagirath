@@ -7,7 +7,7 @@ public class LogicalOperator {
         int c = 5;
 
         System.out.println("&& operator ");
-        System.out.println( (a > b) && (a > c) && (b > c)); // result true; when every condition is true so the result is true
+         System.out.println( (a > b) && (a > c) && (b > c)); // result true; when every condition is true so the result is true
         System.out.println( (a < b) && (a <= c));  // fslse
 
         System.out.println( "|| (or) operator");
