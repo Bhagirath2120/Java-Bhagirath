@@ -5,7 +5,7 @@ public class AssignmentOperator {
         int p = 10;
         int q;
 
-        q = p; // q = 10;
+         q = p; // q = 10;
         System.out.println(q); //output 10
 
         p += q;   // p = p + q; p = 10 + 10 = 20
