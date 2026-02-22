@@ -1,7 +1,7 @@
 package operators;
 
 public class UnaryOperator {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
          int p = 10;
          int q = 5;
 
@@ -36,5 +36,5 @@ public class UnaryOperator {
         System.out.println(y);  // output 4
 
 
-    }
+     }
 }
