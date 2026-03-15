@@ -43,6 +43,16 @@ public class ArraysDeclaration {
              System.out.println("arr2 index "+i+ "  : "+arr2[i]);
         }
         System.out.println();
+        System.out.println();
+
+
+         // for each loop
+        System.out.println("for each loop ");
+        for(int num : arr ){
+
+            System.out.println("arr index : " +num);
+
+        }
 
 
 
