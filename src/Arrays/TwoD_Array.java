@@ -1,34 +1,34 @@
 package Arrays;
 
-public class TowD_Array {
+public class TwoD_Array {
     public static void main(String[] args) {
       //  int [][] arr1 = new int[5][3];
        int arr1[][] = { {10,20,30},{40,50,60},{70,80,90},{100,120,130},{140,150,160} };
 
         System.out.println("without using loop print 2D array");
-        System.out.println("array index [0][0] "+arr1[0][0]);
-        System.out.println("array index [0][1] "+arr1[0][1]);
-        System.out.println("array index [0][2] "+arr1[0][2]);
+        System.out.println("array index [0][0] "+arr1[0][0]);     //10
+        System.out.println("array index [0][1] "+arr1[0][1]);    //20
+        System.out.println("array index [0][2] "+arr1[0][2]);    // 30
         System.out.println();
 
-        System.out.println("array index [1][0] "+arr1[1][0]);
-        System.out.println("array index [1][1] "+arr1[1][1]);
-        System.out.println("array index [1][2] "+arr1[1][2]);
+        System.out.println("array index [1][0] "+arr1[1][0]);   //40
+        System.out.println("array index [1][1] "+arr1[1][1]);   //50
+        System.out.println("array index [1][2] "+arr1[1][2]);   //60
         System.out.println();
 
-        System.out.println("array index [2][0] "+arr1[2][0]);
-        System.out.println("array index [2][1] "+arr1[2][1]);
-        System.out.println("array index [2][2] "+arr1[2][2]);
+        System.out.println("array index [2][0] "+arr1[2][0]);   //70
+        System.out.println("array index [2][1] "+arr1[2][1]);   //80
+        System.out.println("array index [2][2] "+arr1[2][2]);   //90
         System.out.println();
 
-        System.out.println("array index [3][0] "+arr1[3][0]);
-        System.out.println("array index [3][1] "+arr1[3][1]);
-        System.out.println("array index [3][2] "+arr1[3][2]);
+        System.out.println("array index [3][0] "+arr1[3][0]);  //100
+        System.out.println("array index [3][1] "+arr1[3][1]);  //110
+        System.out.println("array index [3][2] "+arr1[3][2]); //120
         System.out.println();
 
-        System.out.println("array index [4][0] "+arr1[4][0]);
-        System.out.println("array index [4][1] "+arr1[4][1]);
-        System.out.println("array index [4][2] "+arr1[4][2]);
+        System.out.println("array index [4][0] "+arr1[4][0]);  //130
+        System.out.println("array index [4][1] "+arr1[4][1]);  //140
+        System.out.println("array index [4][2] "+arr1[4][2]);  //150
         System.out.println();
         System.out.println();
 
