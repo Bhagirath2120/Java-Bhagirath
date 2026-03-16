@@ -12,7 +12,7 @@ public class NestedDivisibleBy3_Or_5ButNotDivisibleBy15 {
         System.out.print("Enter Number: ");
         int num = sc.nextInt();
 
- //method 1
+ //reverse_array 1
 
 //        if(num%3==0 || num%5==0){
 //            if(num%15!=0){
