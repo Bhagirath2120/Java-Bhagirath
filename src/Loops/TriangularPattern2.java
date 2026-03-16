@@ -21,6 +21,6 @@ public class TriangularPattern2 {
             System.out.println();
 
         }
-        System.out.println("total * count : "+ count);
+        System.out.println("total * findGrt : "+ count);
     }
 }
