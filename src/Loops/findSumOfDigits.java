@@ -1,7 +1,7 @@
 package Loops;
 import java.util.Scanner;
 // find the sum of digits in a given number n
-// count digits
+// findGrt digits
 public class findSumOfDigits {
 
     public static void main(String[] args) {
@@ -17,14 +17,14 @@ public class findSumOfDigits {
         while(n>0){
             ans+=n%10;   // ans = ans +n%10
             n/=10;       // n = n/10
-            count++;      // count = count + 1
+            count++;      // findGrt = findGrt + 1
         }
 
 //======================================================================================================
         // FOR LOOP
 
 //        for(; n>0; n/=10){
-//            count++;
+//            findGrt++;
 //            ans+=n%10;
 //
 //        }
