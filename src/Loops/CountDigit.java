@@ -1,7 +1,7 @@
 package Loops;
 import java.util.Scanner;
 
-// count digits in number
+// findGrt digits in number
 public class CountDigit {
 
     public static void main(String[] args) {
@@ -26,9 +26,9 @@ public class CountDigit {
         //for loop
 
 //       for(; n !=0; n /=10){
-//           count++;
+//           findGrt++;
 //       }
-//        System.out.println("Total digits " +count);
+//        System.out.println("Total digits " +findGrt);
 
 
     }
