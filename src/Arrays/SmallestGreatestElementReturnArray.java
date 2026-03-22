@@ -24,7 +24,7 @@ class Forsorting {
      }
 }
 
-public class ReturnArray {
+public class SmallestGreatestElementReturnArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Forsorting obj1 = new Forsorting();
