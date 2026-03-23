@@ -3,9 +3,6 @@ package Arrays;
 import java.util.Scanner;
 import java.util.Arrays;
 
-
-
-
 class Forsorting {
 
      public int[] sorting(int[] arr2) {
@@ -44,14 +41,5 @@ public class SmallestGreatestElementReturnArray {
         System.out.println("smallest element is : "+arr3[0]);
         System.out.println("Greatest element is : "+arr3[1]);
 
-
-
-
-
-
-
-
     }
-
-
 }
