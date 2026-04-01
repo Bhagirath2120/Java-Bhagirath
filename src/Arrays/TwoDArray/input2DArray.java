@@ -26,7 +26,6 @@ public class input2DArray {
             for(int j = 0; j < c; j++) {
                arr[i][j] = sc.nextInt();
             }
-            System.out.println();
         }
         PrintArray(arr);
     }
