@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 /// Write a program to display the transpose of  matrix Entered By user
-///
+///Question Inplace Transpose
 public class TransposeMatrix {
 
     static void PrintMatrix(int[][] Matrix){
@@ -19,15 +19,23 @@ public class TransposeMatrix {
     static int[][] findTranspose(int[][] Matrix,int r, int c){
         int [][] ans = new int [r][c];
 
-        for(int i = 0; i < r; i++){
-            for(int j = 0; j < c; j++){
+        for(int i = 0; i < c; i++){
+            for(int j = 0; j < r; j++){
                 ans[i][j] = Matrix[j][i];
             }
         }
         return ans;
     }
 
-
+    static void findTransposeInplace(int[][] Matrix,int r, int c){
+        for(int i = 0; i < c; i++){
+            for(int j = i; j < r; j++){
+                int temp = Matrix[i][j];
+                Matrix[i][j] = Matrix[j][i];
+                Matrix[j][i] = temp;
+            }
+        }
+    }
 
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -51,11 +59,13 @@ public static void main(String[] args) {
     PrintMatrix(Matrix);
     System.out.println();
     System.out.println("Transpose Matrix");
-    int[][] ans = findTranspose(Matrix,r,c);
-    PrintMatrix(ans);
+    findTransposeInplace(Matrix,r,c);
 
+    PrintMatrix(Matrix);
 
+//    System.out.println("Transpose Matrix");
+//    int[][] ans = findTranspose(Matrix,r,c);
+//    PrintMatrix(ans);
 
-}
-
+  }
 }
